@@ -1,3 +1,6 @@
+// Descrição: o programa cria uma thread que lê um arquivo de texto e imprime uma linha aleatória a cada 10 segundos.
+// Autor: Jorge Rossi.
+
 package exercicio02
 
 import java.io.File
