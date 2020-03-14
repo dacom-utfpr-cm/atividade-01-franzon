@@ -21,7 +21,7 @@ fun main() {
 
     for (i in 1..5) {
         threads.add(
-            Thread() {
+            Thread {
                 try {
                     println("Thread ${Thread.currentThread().id} iniciada.")
                     while (true) {
